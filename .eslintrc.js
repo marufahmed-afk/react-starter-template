@@ -27,7 +27,6 @@ module.exports = {
         arrowParens: "avoid",
       },
     ],
-    "comma-dangle": ["error", "never"],
     "react/jsx-filename-extension": ["warn", { extensions: [".tsx"] }],
     "import/extensions": [
       "error",
@@ -54,6 +53,11 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "object-curly-newline": "off",
     "line-break-style": "off",
+    "arrow-parens": [0, "always"],
+    "no-promise-executor-return": 0,
+    "implicit-arrow-linebreak": 0,
+    "no-unused-vars": 0,
+    "comma-dangle": 0,
   },
   settings: {
     "import/resolver": {
